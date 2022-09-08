@@ -9,7 +9,7 @@ public class Main {
 
 
         new ArrayThread().start();
-        ArrayThread.sleep(8);
+        ArrayThread.sleep(10);
 
         new SummaThread().start();
         new AverageThread().start();
